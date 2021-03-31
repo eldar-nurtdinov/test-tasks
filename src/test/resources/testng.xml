@@ -6,6 +6,7 @@
 		    <class name="by.tasks.tests.BuySellAmountBoxesTest"/>
 			<class name="by.tasks.tests.CountryChangeTest"/>
 			<class name="by.tasks.tests.LossDisplayedTest"/>
+			<class name="by.tasks.tests.NegativeSellInputTest"/>
 		</classes>
 	</test>  
 </suite>

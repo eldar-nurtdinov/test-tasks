@@ -1,8 +1,10 @@
 package by.tasks.data;
 
 public enum Country {
-    LT("Lithuania", "EUR"),
-    UK("United Kingdom", "GBP");
+    UK("United Kingdom", "GBP"),
+    RU("Russia", "RUB"),
+    UA("Ukraine", "UAH"),
+    ALL("Albania", "ALL");
 
     private final String name;
     private final String currency;

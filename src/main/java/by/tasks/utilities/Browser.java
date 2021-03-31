@@ -18,6 +18,7 @@ public class Browser {
         if (BROWSER_NAME.equals(Browsers.CHROME.getBrowserName()) && (Boolean.parseBoolean(IS_HEADLESS_RUN))) {
             options.addArguments("--headless");
         }
+        options.addArguments("--window-size=1920,1080");
         webDriver = WebDriverFactory.getInstance(BROWSER_NAME, options);
         webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         goTo("");
